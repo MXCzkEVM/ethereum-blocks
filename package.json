@@ -4,7 +4,7 @@
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy ---ipfs http://149.28.212.112:5001 --node http://149.28.212.112:8020 blocklytics/ethereum-blocks",
+    "deploy": "graph deploy --ipfs http://45.63.52.231:5001 --node http://45.63.52.231:8020 blocklytics/ethereum-blocks",
     "create-local": "graph create --node http://localhost:8020/ blocklytics/ethereum-blocks",
     "remove-local": "graph remove --node http://localhost:8020/ blocklytics/ethereum-blocks",
     "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 blocklytics/ethereum-blocks",
@@ -15,7 +15,7 @@
     "deploy-poa": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ blocklytics/poa-core-blocks"
   },
   "dependencies": {
-    "@graphprotocol/graph-cli": "^0.17.1",
-    "@graphprotocol/graph-ts": "0.17.0"
+    "@graphprotocol/graph-cli": "^0.49.0",
+    "@graphprotocol/graph-ts": "^0.31.0"
   }
 }
