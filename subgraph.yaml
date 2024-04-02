@@ -6,7 +6,7 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: ConverterRegistryContract
-    network: mainnet
+    network: geneva
     source:
       address: "0x1000777700000000000000000000000000000001"
       abi: ConverterRegistryContract
